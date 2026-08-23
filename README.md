@@ -1,232 +1,117 @@
-# Airbnb Market Insights Dashboard
+# 🏠 Airbnb Market Insights Dashboard
 
-## 📊 Project Overview
+## 1. Project Title / Headline
 
-**Airbnb Market Insights Dashboard** is an interactive Tableau data analytics project developed to analyze Airbnb listing prices, property characteristics, geographic pricing patterns, and weekly market trends.
+### 🏠 Airbnb Market Insights: Pricing & Listing Analysis
 
-The project transforms Airbnb listing and calendar data into interactive visualizations that make it easier to understand how **location, number of bedrooms, listing volume, and time** relate to Airbnb pricing and market activity.
-
-## 🎯 Project Objectives
-
-The main objectives of this project are to:
-
-* Analyze average Airbnb prices across different ZIP codes.
-* Understand geographic variations in Airbnb pricing.
-* Examine weekly pricing and revenue trends.
-* Analyze the relationship between the number of bedrooms and average listing price.
-* Understand the distribution of Airbnb listings by bedroom count.
-* Identify patterns that can support pricing and market decisions.
-* Present Airbnb data through an interactive and easy-to-understand Tableau dashboard.
-
-## 🗂️ Dataset
-
-The project uses Airbnb listing and calendar data containing information about properties, prices, locations, bedrooms, and dates.
-
-### Key Data Fields
-
-Some important fields used in the analysis include:
-
-* Listing ID
-* ZIP Code
-* Price
-* Bedrooms
-* Date
-* Latitude
-* Longitude
-
-The dataset combines **listing-level information** with **calendar-based pricing and availability data** to support both property-level and time-based analysis.
-
-## 📈 Dashboard Analysis
-
-The Tableau dashboard focuses on several important areas:
-
-### 1. Average Price by ZIP Code
-
-This analysis compares the average Airbnb listing price across different ZIP codes.
-
-It helps identify:
-
-* Higher-priced ZIP codes
-* Lower-priced areas
-* Geographic differences in average pricing
-* Potential pricing opportunities across locations
-
-### 2. Geographic Price Analysis
-
-The dashboard uses geographic visualization to display Airbnb pricing across different locations.
-
-This makes it easier to identify:
-
-* Areas with higher average prices
-* Areas with relatively lower prices
-* Geographic pricing patterns
-* Regional differences within the Airbnb market
-
-### 3. Weekly Pricing / Revenue Trend
-
-The dashboard analyzes Airbnb data on a weekly basis to understand how pricing and revenue-related metrics change over time.
-
-This helps explore:
-
-* Weekly market trends
-* Changes in pricing over time
-* Potential seasonal patterns
-* Periods of higher or lower market activity
-
-### 4. Average Price by Number of Bedrooms
-
-This visualization compares average Airbnb prices based on the number of bedrooms.
-
-It helps answer:
-
-> How does property size relate to Airbnb pricing?
-
-The analysis provides insight into how pricing changes between smaller and larger properties.
-
-### 5. Listings by Bedroom Count
-
-This visualization examines the number of Airbnb listings available across different bedroom categories.
-
-It helps understand:
-
-* The most common property sizes
-* Listing supply by bedroom category
-* Market concentration across property sizes
-* Potential competition within different property segments
-
-## 🔍 Key Business Questions
-
-This project aims to answer questions such as:
-
-* Which ZIP codes have the highest average Airbnb prices?
-* How does Airbnb pricing vary across different locations?
-* How does pricing change over time?
-* Does the number of bedrooms influence average listing price?
-* Which bedroom categories have the largest number of listings?
-* What property sizes are most common in the Airbnb market?
-* Are there noticeable patterns between listing supply and pricing?
-
-## 🛠️ Tools & Technologies
-
-* **Tableau** — Data visualization and interactive dashboard development
-* **Microsoft Excel** — Source data
-* **Tableau Hyper Extract** — Data extraction and processing
-
-## 🔄 Project Workflow
-
-```text
-Raw Airbnb Data
-       ↓
-Data Preparation
-       ↓
-Data Connection in Tableau
-       ↓
-Data Exploration
-       ↓
-Calculated Measures & Aggregations
-       ↓
-Geographic & Time-Based Analysis
-       ↓
-Visualization Development
-       ↓
-Dashboard Design
-       ↓
-Business Insights
-```
-
-## 📊 Tableau Features Used
-
-The project demonstrates the use of:
-
-* Interactive dashboards
-* Geographic maps
-* ZIP-code based geographic analysis
-* Filters
-* Aggregations
-* Average and count-based measures
-* Time-series analysis
-* Bar charts
-* Line charts
-* KPI-style analysis
-* Tooltips
-* Tableau extracts
-* Dashboard layout and formatting
-
-## 💡 Key Insights
-
-The dashboard can be used to identify several important Airbnb market patterns:
-
-**Location influences pricing** — Average prices vary significantly across ZIP codes, highlighting the importance of geographic location in Airbnb pricing.
-
-**Property size affects pricing** — Comparing average prices across bedroom categories provides insight into the relationship between property size and listing price.
-
-**Listing supply differs by property size** — Some bedroom categories contain substantially more listings than others, revealing differences in market supply.
-
-**Pricing changes over time** — Weekly analysis helps reveal fluctuations and potential seasonal patterns in Airbnb pricing and market activity.
-
-**Geographic visualization improves market analysis** — Mapping prices by location makes it easier to identify higher- and lower-priced areas at a glance.
-
-> **Note:** The exact insight can vary depending on the filters and selections applied within the interactive Tableau dashboard.
-
-## 📁 Project Structure
-
-```text
-Airbnb-Tableau-Project/
-│
-├── Data/
-│   └── Airbnb Dataset.xlsx
-│
-├── Tableau/
-│   └── Airbnb Market Insights.twbx
-│
-├── Dashboard/
-│   └── Dashboard Screenshots/
-│
-└── README.md
-```
-
-## 🚀 How to Use
-
-1. Download or clone this repository.
-2. Open the Tableau packaged workbook (`.twbx`) using **Tableau Desktop**.
-3. Open the main Airbnb dashboard.
-4. Interact with the available filters and visualizations.
-5. Explore pricing, location, bedroom, listing, and weekly trends.
-6. Use the visualizations to derive business insights.
-
-## 🎓 Skills Demonstrated
-
-This project demonstrates practical skills in:
-
-* Data analysis
-* Data visualization
-* Tableau
-* Interactive dashboard development
-* Geographic analysis
-* Time-series analysis
-* Data preparation
-* Exploratory data analysis
-* Aggregation and KPI analysis
-* Business intelligence
-* Analytical storytelling
-* Dashboard design
-
-## 👤 Project Purpose
-
-This project was created as a **data analytics portfolio project** to demonstrate the ability to work with real-world Airbnb data, perform exploratory analysis, and transform raw datasets into an interactive business intelligence dashboard.
-
-The project showcases how Tableau can be used to analyze **pricing, location, property characteristics, listing supply, and market trends** in a visually compelling way.
-
-## 📌 Conclusion
-
-The **Airbnb Market Insights Dashboard** provides an interactive way to explore Airbnb pricing and market patterns.
-
-By combining **ZIP-code analysis, geographic pricing, weekly trends, bedroom-level pricing, and listing distribution**, the project demonstrates how data visualization can turn raw Airbnb data into meaningful insights for understanding market behavior and supporting data-driven decisions.
+An interactive **Tableau dashboard** designed to analyze Airbnb listing data, with a focus on **pricing patterns, geographic distribution, listing availability, and bedroom-wise market trends**.
 
 ---
 
-### ⭐ Project Title
+## 2. Short Description / Purpose
 
-**Airbnb Market Insights Dashboard**
+The Airbnb Market Insights Dashboard is an interactive Tableau project that transforms Airbnb listing and calendar data into meaningful visual insights. The dashboard helps users explore how **listing prices vary by location and property size, how listings are distributed geographically, and how pricing changes over time**.
+
+---
+
+## 3. Tech Stack
+
+The dashboard was built using the following tools and technologies:
+
+* 📊 **Tableau Desktop** – Main platform used to create the interactive dashboard and visualizations.
+* 📂 **Data Preparation** – Listing and calendar data prepared and structured for analysis.
+* 🔗 **Data Integration** – Listings and Calendar data connected using **Listing ID**.
+* 📈 **Data Visualization** – Used maps, charts, and interactive visualizations to analyze Airbnb market trends.
+* 🔍 **Interactive Analysis** – Geographic and category-based visual exploration of pricing and listings.
+* 📁 **File Format** – `.twbx` for the Tableau packaged workbook and `.png` for dashboard preview.
+
+---
+
+## 4. Data Source
+
+The project uses Airbnb **Listings and Calendar** datasets containing information about properties, prices, locations, bedrooms, and calendar availability.
+
+The main data includes attributes such as:
+
+* Listing ID
+* Listing name
+* ZIP code
+* Latitude & Longitude
+* Property type
+* Room type
+* Number of bedrooms
+* Price
+* Calendar date
+* Availability
+* Number of reviews
+* Host information
+
+The **Listings** and **Calendar** datasets are joined using the **Listing ID** to enable combined analysis of property characteristics, pricing, and calendar trends.
+
+---
+
+## 5. Features / Highlights
+
+### • Business Problem
+
+Airbnb platforms contain large amounts of information about listings, pricing, locations, and availability. However, analyzing raw listing data can make it difficult to quickly understand **where listings are concentrated, how prices vary by location and property size, and how pricing changes over time**.
+
+### • Goal of the Dashboard
+
+The goal of the dashboard is to provide an interactive visual analysis that helps users:
+
+* Understand Airbnb pricing patterns.
+* Compare average prices across ZIP codes.
+* Explore the geographic distribution of listings.
+* Analyze pricing trends over time.
+* Compare prices based on the number of bedrooms.
+* Understand the distribution of listings by bedroom count.
+
+### • Walkthrough of Key Visuals
+
+* **Average Price by ZIP Code**
+  Compares average Airbnb listing prices across different ZIP codes to identify variations in local pricing.
+
+* **Geographic Listing Analysis**
+  Uses a map-based visualization to show the geographic distribution of Airbnb listings and their associated pricing patterns.
+
+* **Price Trend Over Time**
+  Analyzes changes in Airbnb prices across calendar dates to identify pricing trends and fluctuations.
+
+* **Average Price by Bedrooms**
+  Compares average listing prices based on the number of bedrooms, helping understand the relationship between property size and price.
+
+* **Listings by Bedrooms**
+  Shows the number of Airbnb listings available for different bedroom categories, providing insights into the type of properties available in the market.
+
+### • Key Insights
+
+The dashboard helps identify:
+
+* Differences in average Airbnb prices across locations.
+* Geographic areas with higher or lower listing prices.
+* Changes in listing prices over time.
+* The relationship between bedroom count and average price.
+* The distribution of properties based on the number of bedrooms.
+
+### • Business Impact & Applications
+
+**Market Analysis:** Helps understand pricing differences across locations and property categories.
+
+**Investment Insights:** Property owners and investors can identify areas and property types with different pricing characteristics.
+
+**Pricing Strategy:** Hosts can use location and bedroom-wise pricing patterns as a reference when evaluating their pricing strategy.
+
+**Customer Decision-Making:** Travelers can compare locations and property characteristics to better understand the Airbnb market.
+
+**Data-Driven Analysis:** Demonstrates how raw Airbnb data can be transformed into an interactive business intelligence dashboard using Tableau.
+
+---
+
+## 6. Screenshots / Demos
+
+### Dashboard Preview
+
+![Airbnb Market Insights Dashboard](Airbnb%20Insights%20Dashboard.png)
 
 
